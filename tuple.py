@@ -1,0 +1,15 @@
+tuple=("hiee",12,23.55,True,True,21)
+print(tuple)
+print(type(tuple))
+print(tuple[2:])
+print(tuple[3])
+print(len(tuple))
+x=("car")
+print(x)
+print(type(x))
+
+t=("hiee",12,23.55,True,True,21)
+y=list(t)
+y[1]="orange"
+xx=tuple(y)
+print(xx)
